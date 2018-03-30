@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>BMW Lot1 Database</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		-->
+		<link rel="stylesheet" href="bootstrap-3.3.6-dist\css\bootstrap.min.css">
+		<link rel="stylesheet" href="bootstrap-3.3.6-dist\css\bootstrap-theme.css">
+		<script src="bootstrap-3.3.6-dist\css\bootstrap.js"></script>
+		<link rel="stylesheet" href="bmw.css">
+	</head>
+	
+	<body>
+		
+		<div class="container" style="padding: 0 !important; margin-top: 80px;">
+			<div class="jumbotron text-center">
+				<h1>Archive Car</h1>
+			</div>
+		</div>
+		
+		<div class="container" style="background-color: #EEEEEE; margin: 20px auto;">
+		
+        <form class="text-center form-horizontal" action="archive_car.php" method="post" style="margin: 20px;">
+		
+			<div class="form-group">
+            <label class="col-md-2 col-md-push-2 control-label">Tag To Archive:</label>
+			<div class="col-md-5 col-md-push-2">
+				<input class="form-control" type="text" name="archive_tag" required><br>
+			</div>
+			</div>
+			
+		</form>
+			<br><br>
+			<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group" role="group">
+					<a href="index.php"><button type="button" class="btn btn-default">Home</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="add.html"><button type="button" class="btn btn-default">Add</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="update.html"><button type="button" class="btn btn-default">Update</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="list.php"><button type="button" class="btn btn-default">Lot List</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="ready.php"><button type="button" class="btn btn-default">Ready List</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="wash_list.php"><button type="button" class="btn btn-default">Wash List</button></a>
+				</div>
+				<div class="btn-group" role="group">
+					<a href="archive_list.php"><button type="button" class="btn btn-default">Archive List</button></a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	
+</html>

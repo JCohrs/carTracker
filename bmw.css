@@ -1,0 +1,46 @@
+a:hover {
+	text-decoration: none !important;
+	color: black;
+}
+
+a:visited {
+	color: purple;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.jumbotron {
+	width: 100% !important;
+}
+
+.container {
+	padding: 15px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	vertical-align: middle !important;
+}
+
+#options{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#options div {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+h1 {
+	font-size: 48px !important;
+}
